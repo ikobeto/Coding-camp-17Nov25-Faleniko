@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoU Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#our-profile" class="nav-link">Our Profile</a></li>
+                <li><a href="#portfolio" class="nav-link">Portofolio</a></li>
+                <li><a href="#message-us" class="nav-link">Message Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi <span id="user-name">Guest</span>, Welcome To Website</h1>
+            <p>Ini adalah website latihan pertama</p>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- Our Profile Section -->
+    <section class="profile-section" id="our-profile">
+        <div class="profile-banner">
+            <img src="https://images.pexels.com/photos/125532/pexels-photo-125532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Company Banner">
+        </div>
+        
+        <div class="container">
+            <h2>About The Company</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/233698/pexels-photo-233698.jpeg?auto=compress&cs=tinysrgb&w=600" alt="About Image">
+                </div>
+                <div class="about-text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, commodi facere error eligendi ex molestias nisi, quae ullam atque, eum suscipit rerum consectetur! Rerum nam tempore quidem, quos deserunt sunt?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, blanditiis maxime iste tenetur modi doloremque error officiis, ipsam repellendus maiores nobis laudantium rerum incidunt qui? Rerum reprehenderit sint aut vero?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vision-mission">
+            <div class="container">
+                <div class="vm-grid">
+                    <div class="vm-card">
+                        <h3>Visi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum animi perferendis consectetur eum voluptates esse quae cumque corrupti. Voluptate vitae aut obcaecati fugit in magnam velit et ipsam. Eaque, veniam!</p>
+                    </div>
+                    <div class="vm-card">
+                        <h3>Misi</h3>
+                        <ul>
+                            <li>Menyediakan kurikulum yang relevan dengan kebutuhan industri</li>
+                            <li>Membangun komunitas learner yang aktif dan suportif</li>
+                            <li>Menjalin kemitraan dengan perusahaan teknologi terkemuka</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.pexels.com/photos/12899188/pexels-photo-12899188.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 1">
+                    <p>Web Development</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 2">
+                    <p>Team Work</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 3">
+                    <p>Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Headquarter Section -->
+    <section class="headquarter">
+        <div class="container">
+            <h2>Our Headquarter</h2>
+            <div class="hq-grid">
+                <div class="hq-item">
+                    <div class="hq-circle">
+                        <img src="https://images.pexels.com/photos/2116719/pexels-photo-2116719.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Jakarta">
+                    </div>
+                    <p>Jakarta</p>
+                </div>
+                <div class="hq-item">
+                    <div class="hq-circle">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gedung_Sate_Oktober_2024_-_Rahmatdenas.jpg/1280px-Gedung_Sate_Oktober_2024_-_Rahmatdenas.jpg" alt="Bandung">
+                    </div>
+                    <p>Bandung</p>
+                </div>
+                <div class="hq-item">
+                    <div class="hq-circle">
+                        <img src="https://images.pexels.com/photos/14784266/pexels-photo-14784266.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Surabaya">
+                    </div>
+                    <p>Surabaya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Message Us Section -->
+    <section class="message-us" id="message-us">
+        <div class="container">
+            <h2>Message Us</h2>
+            <div class="form-wrapper">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label>Nama</label>
+                        <span class="colon">:</span>
+                        <input type="text" id="nama" placeholder="Nama">
+                    </div>
+                    <div class="form-group">
+                        <label>Tanggal Lahir</label>
+                        <span class="colon">:</span>
+                        <input type="date" id="tanggal">
+                    </div>
+                    <div class="form-group">
+                        <label>Jenis Kelamin</label>
+                        <span class="colon">:</span>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="Laki - Laki" checked>
+                                Laki-Laki
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="Perempuan">
+                                Perempuan
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Pesan</label>
+                        <span class="colon">:</span>
+                        <textarea id="pesan" placeholder="Pesan" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+
+                <!-- Form Result Display -->
+                <div id="form-result" class="form-result">
+                    <p><strong>Current time</strong> : <span id="current-time"></span></p>
+                    <p><strong>Nama</strong> : <span id="result-nama"></span></p>
+                    <p><strong>Tanggal Lahir</strong> : <span id="result-tanggal"></span></p>
+                    <p><strong>Jenis Kelamin</strong> : <span id="result-gender"></span></p>
+                    <p><strong>Pesan :</strong> <span id="result-pesan"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Created By AI</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
